@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📝 My Project – HTML Level Up</title>
+  <link rel="icon" href="" type="image/png" />
+  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKnfdK2Uv9b8bfASMj7q5tyPDaNYH7MkCzZe7K9-mf15lj699AE2_x7OBcc9OOXNIf9nc&usqp=CAU" type="image/png" />
+  <style>
+    a.button1 {
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    a.button2 {
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    div.card:hover {
+      background-color: #e0e0e0;
+    }
+    .alt-row:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    ul.custom-bullets {
+      list-style: none;
+      padding-left: 20px;
+    }
+    ul.custom-bullets li::before {
+      content: "👉 ";
+    }
+    .inline-div {
+      display: inline-block;
+      width: 30%;
+      padding: 10px;
+      border: 1px solid gray;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. HTML Formatting -->
+  <h2><u>👨‍💼 Ragini Singh</u></h2>
+  <p><strong>Email:</strong> <em>raginisingh.sejal@gmail.com</em></p>
+  <p><mark>Skills:</mark> <small>HTML, CSS, Git, Debugging</small> <sup>2025</sup></p>
+
+  <!-- 2. HTML Quotations -->
+  <blockquote cite="https://www.amazon.com">
+    “This product changed my life!” – <abbr title="Verified Customer">VC</abbr>
+  </blockquote>
+  <blockquote cite="https://www.flipkart.com/">
+    “Exceptional value and performance!” – <abbr title="Top Reviewer">TR</abbr>
+  </blockquote>
+  <q>Worth every penny.</q>
+
+  <!-- 3. HTML Comments -->
+  <!-- Header of the site -->
+  <h1>Welcome to My Page</h1> <!-- Main heading -->
+  <!-- This section holds user details -->
+  <p>Name: Alice</p> <!-- Sample user name -->
+
+  <!-- 4. HTML Colors -->
+  <table border="1">
+    <tr>
+      <td style="background-color: #ff4d4d;">#ff4d4d</td>
+      <td style="background-color: #4dff88;">#4dff88</td>
+      <td style="background-color: #4da6ff;">#4da6ff</td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(255, 200, 0);">rgb(255,200,0)</td>
+      <td style="background-color: hsl(120, 100%, 75%);">hsl(120,100%,75%)</td>
+      <td style="background-color: hsl(240, 100%, 75%);">hsl(240,100%,75%)</td>
+    </tr>
+  </table>
+
+  <!-- 5. HTML CSS -->
+  <div class="card" style="border: 2px solid #333; padding: 20px; width: 300px; background-color: #fafafa;">
+    <h3 style="color: #333;">📦 Product Name</h3>
+    <p style="font-size: 14px;">"All About HTML – Top" is a beginner-friendly guide designed to help you understand the fundamentals of HTML. From basic tags to building your first webpage, this product covers it all in an easy-to-follow format2. Catchy & Promotional:
+        Master the language of the web with "All About HTML – Top" – your ultimate starter kit to HTML! Whether you're a student, aspiring web developer, or just curious about coding, this guide makes learning HTML fun and simple.
+        
+        3. Technical & Professional:
+        "All About HTML – Top" offers a comprehensive overview of HTML elements, structure, and syntax. Ideal for beginners and coding enthusiasts, it lays a solid foundation for web development.
+        
+        .
+
+    </p>
+  </div>
+
+  <!-- 6. HTML Links -->
+  <p>
+    <a href="https://chatgpt.com/" class="button1">Go to ChatGPT</a>
+    <a href="https://www.google.com" class="button2">Visit Google</a>
+  </p>
+
+  <!-- 7. HTML Images -->
+  <table>
+    <tr>
+      <td><img src="https://via.placeholder.com/100" alt="Placeholder: Abstract Design" /></td>
+      <td><img src="https://via.placeholder.com/100" alt="Placeholder: Simple Icon" /></td>
+    </tr>
+  </table>
+
+  <!-- 8. HTML Favicon -->
+  <!-- Already included in head -->
+
+  <!-- 9. HTML Page Title -->
+  <!-- Already set in <title> tag with emoji -->
+
+  <!-- 10. HTML Tables -->
+  <table border="1">
+    <caption><strong>🧾 Invoice Summary</strong></caption>
+    <tr><th>Item</th><th>Qty</th><th>Price</th></tr>
+    <tr class="alt-row"><td>Pen</td><td>2</td><td>$1.00</td></tr>
+    <tr class="alt-row"><td>Notebook</td><td>1</td><td>$3.00</td></tr>
+    <tr class="alt-row"><td>Pencil</td><td>5</td><td>$0.50</td></tr>
+    <tr><td colspan="2">Total</td><td>$5.50</td></tr>
+  </table>
+
+  <!-- 11. HTML Lists -->
+  <ul class="custom-bullets">
+    <li>Home</li>
+    <li>About
+      <ul class="custom-bullets">
+        <li>Team</li>
+        <li>Mission</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- 12. HTML Block & Inline -->
+  <div>
+    <span style="color: red;">Red</span> and
+    <span style="color: green;">Green</span> in a block.
+  </div>
+  <div class="inline-div">Block 1</div>
+  <div class="inline-div">Block 2</div>
+  <div class="inline-div">Block 3</div>
+
+</body>
+</html>
